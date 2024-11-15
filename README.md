@@ -1,6 +1,6 @@
 # FMatPix - A Free-Fast-NoDep-Offline Formula Ocr Tool
 A free portable Formula Ocr tool supporting latex and mathml based on Texify.<br>
-You can use this on your own PC with just CPU and no need for Internet.
+You can use this on your own PC with just CPU and no need for Internet.<br>
 FMatPix是一款免费的数学公式识别(OCR)软件，其使用了开源的检测、识别模型。
 已有数学公式识别软件的不足：
 1、登录、付费才能使用。
