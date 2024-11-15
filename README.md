@@ -1,6 +1,21 @@
 # FMatPix - A Free-Fast-NoDep-Offline Formula Ocr Tool
 A free portable Formula Ocr tool supporting latex and mathml based on Texify.<br>
 You can use this on your own PC with just CPU and no need for Internet.
+FMatPix是一款免费的数学公式识别(OCR)软件，其使用了开源的检测、识别模型。
+已有数学公式识别软件的不足：
+1、登录、付费才能使用。
+2、必须联网，有时候网络不好或服务器紧张就无法使用。
+3、开源模型基本没有很好的封装，导致使用难度大、效率低。
+
+FMatPix基本解决了上述问题，它有以下优点：
+1、单文件发布。只有一个exe，也不需要安装别的依赖。
+2、离线识别。所有计算都是在本地PC进行的，不用联网。
+3、不收费、不用登录。
+4、有自动复制、历史面板、批量识别、窗口置顶、多行识别等好用的特性，效率极高。
+5、使用了较先进的开源识别模型，准确率不比收费软件差多少。
+有些小问题可以提升一下：
+1、History点击会开多个窗口，建议判断最多开一个；
+2、Alt+Q进入截图后软件界面似乎会回到100%缩放倍率，在高分辨率下屏幕有缩放情况下会变得很小。
 
 # What's the advantage of this?
 It's free,portable,offline,fast,accurate.<br>
@@ -28,6 +43,20 @@ you capture an image.By clicking the 'Batch Ocr',all the captured images will be
 6、Double click 'Page Ocr' to enable page-ocr mode.In this mode,after capturing a large image, <br>
 all formulas in it will be box selection and you can copy a formula by clicking its box.<br>
 You can see this video for some usage details: https://www.bilibili.com/video/BV137SdYCEd6 <br>
+FMatPix使用方法：
+1、按Alt+Q开始截图，鼠标左键选择区域，Esc键退出。
+2、完成识别后，可单击copy latex/mathml来复制本次识别的公式。
+3、双击copy latex/mathml，来开启或关闭识别后自动复制功能。
+4、单击History显示历史公式图片，左单击图片复制Tex，右单击图片复制MathMl；
+   copy all复制全部公式到剪切板，建议粘贴到文本编辑器(例如记事本)查看，不要
+   直接复制到mathtype查看(数量太多会报错)；clear all清空全部历史公式。
+5、红色状态灯表示正在识别，绿色状态灯表示识别完成。
+6、双击Batch Ocr开启或关闭批量识别模式；
+   批量识别模式：每次截图后不识别，累积多个截图，数量显示在绿色状态灯；
+   单击Batch Ocr开始批量识别，剩余待识别公式数量显示在红色状态灯；
+   批量识别完成后，点击History，查看、复制公式。
+7、双击PageOcr开启或关闭整页可视化识别+复制。
+    在此模式下，依旧是ALT+Q截图，整张图中全部公式都会被框选显示，点击公式就能复制。
 
 # How to use the code?
 1.Setup your python env according to the requirements.txt <br>
