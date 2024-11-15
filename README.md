@@ -1,21 +1,21 @@
 # FMatPix - A Free-Fast-NoDep-Offline Formula Ocr Tool
 A free portable Formula Ocr tool supporting latex and mathml based on Texify.<br>
 You can use this on your own PC with just CPU and no need for Internet.<br>
-FMatPix是一款免费的数学公式识别(OCR)软件，其使用了开源的检测、识别模型。
-已有数学公式识别软件的不足：
-1、登录、付费才能使用。
-2、必须联网，有时候网络不好或服务器紧张就无法使用。
-3、开源模型基本没有很好的封装，导致使用难度大、效率低。
+FMatPix是一款免费的数学公式识别(OCR)软件，其使用了开源的检测、识别模型。<br>
+已有数学公式识别软件的不足：<br>
+1、登录、付费才能使用。<br>
+2、必须联网，有时候网络不好或服务器紧张就无法使用。<br>
+3、开源模型基本没有很好的封装，导致使用难度大、效率低。<br>
 
-FMatPix基本解决了上述问题，它有以下优点：
-1、单文件发布。只有一个exe，也不需要安装别的依赖。
-2、离线识别。所有计算都是在本地PC进行的，不用联网。
-3、不收费、不用登录。
-4、有自动复制、历史面板、批量识别、窗口置顶、多行识别等好用的特性，效率极高。
+FMatPix基本解决了上述问题，它有以下优点：<br>
+1、单文件发布。只有一个exe，也不需要安装别的依赖。<br>
+2、离线识别。所有计算都是在本地PC进行的，不用联网。<br>
+3、不收费、不用登录。<br>
+4、有自动复制、历史面板、批量识别、窗口置顶、多行识别等好用的特性，效率极高。<br>
 5、使用了较先进的开源识别模型，准确率不比收费软件差多少。<br>
-有些小问题可以提升一下：
-1、History点击会开多个窗口，建议判断最多开一个；
-2、Alt+Q进入截图后软件界面似乎会回到100%缩放倍率，在高分辨率下屏幕有缩放情况下会变得很小。
+有些小问题可以提升一下：<br>
+1、History点击会开多个窗口，建议判断最多开一个；<br>
+2、Alt+Q进入截图后软件界面似乎会回到100%缩放倍率，在高分辨率下屏幕有缩放情况下会变得很小。<br>
 
 # What's the advantage of this?
 It's free,portable,offline,fast,accurate.<br>
